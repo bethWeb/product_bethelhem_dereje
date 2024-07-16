@@ -13,6 +13,7 @@ interface product {
   price: number;
   rating: number;
   tags: string[];
+  images: string[];
 }
 export default function Products() {
   const [products, setProducts] = useState([]);
